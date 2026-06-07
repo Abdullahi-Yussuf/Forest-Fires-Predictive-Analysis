@@ -35,7 +35,3 @@ The project utilizes the **Forest Fires Dataset** from the UCI Machine Learning 
 * **The Power of Feature Selection:** Lasso regression effectively shrunk complex interaction terms to zero, confirming that core metrics like temperature, wind, and seasonality hold the most predictive weight.
 * **Strategic Deployment:** The **Logistic Regression (Classification)** model proved to be the most stable and interpretable approach. Rather than predicting exact acreage, providing a probability score for a "High-Risk/Large Fire" allows response teams to set effective alerting thresholds and allocate firefighting resources efficiently before a crisis escalates.
 
-## How to Run
-1. Clone this repository to your local machine.
-2. Ensure you have the required Python libraries installed (`pip install pandas numpy matplotlib seaborn scikit-learn statsmodels ucimlrepo`).
-3. Run the `C06M08Lab.ipynb` notebook cell by cell to reproduce the analysis and model outputs.
